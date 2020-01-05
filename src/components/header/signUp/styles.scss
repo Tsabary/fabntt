@@ -1,0 +1,84 @@
+.signup {
+  height: min-content;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(2, max-content);
+  grid-gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+  text-transform: uppercase;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, min-content);
+  }
+  &__input {
+    grid-column: 2/3;
+    border: none;
+    padding: 1rem;
+    background-color: rgb(238, 238, 238);
+    // @media only screen and (max-width: 600px) {
+
+    // }
+    &--email {
+      grid-row: 1/2;
+      // @media only screen and (max-width: 600px) {
+      //   grid-row: 3/4;
+      // }
+    }
+
+    &--password {
+      grid-row: 2/3;
+      // @media only screen and (max-width: 600px) {
+      //   grid-row: 4/5;
+      // }
+    }
+  }
+  &__external {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+    padding: 1rem 1.5rem .5rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__facebook {
+    background-color: #3b5998;
+    color: white;
+    @media only screen and (max-width: 600px) {
+      grid-row: 2/3;
+    }
+  }
+  &__google {
+    background-color: white;
+    color: #DB4437;
+    @media only screen and (max-width: 1000px) {
+      grid-row: 1/2;
+    }
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    outline: none;
+    grid-row: 1/3;
+    grid-column: 3/4;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 900;
+    text-transform: inherit;
+    font-size: 3rem;
+    background-color: white;
+    color: black;
+    &:hover{
+      color: dodgerblue;
+    }
+    @media only screen and (max-width: 600px) {
+      grid-column: 1/3;
+      grid-row: 3/4;
+    }
+  }
+}

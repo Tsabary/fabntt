@@ -1,0 +1,14 @@
+export const FETCH_PROJECTS = "FETCH_PROJECTS";
+export const FETCH_WORDS = "FETCH_WORDS";
+export const FETCH_COMMENTS = "FETCH_COMMENTS";
+export const NEW_PROJECT = "NEW_PROJECT";
+export const SET_PROJECT = "SET_PROJECT";
+export const ADD_WORD = "ADD_WORD";
+export const REMOVE_WORD = "REMOVE_WORD";
+export const ADD_START = "ADD_START";
+export const ADD_END = "ADD_END";
+export const SHUFFLE = "SHUFFLE";
+export const LOCK_LETTER = "LOCK_LETTER";
+export const REMOVE_LETTER = "REMOVE_LETTER";
+export const CHANGE_LETTER = "CHANGE_LETTER";
+export const ADD_COMMENT = "ADD_COMMENT";

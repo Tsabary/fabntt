@@ -1,0 +1,58 @@
+
+.project-form {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    z-index: 1000;
+    color: white;
+    text-transform: uppercase;
+    font-family: Josefin Sans;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+  
+    &:target {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    &__title {
+      font-size: 48px;
+      text-align: center;
+    }
+  
+    &__input {
+      color: black;
+      border: none;
+      padding: 24px;
+      margin: 16px;
+      width: 50%;
+      font-size: 24px;
+    }
+    &__button {
+      font-family: inherit;
+      text-transform: inherit;
+      font-size: 32px;
+      font-weight: 700;
+      width: 50%;
+      margin: 16px;
+      padding: 16px;
+      border: none;
+      background-color: white;
+      color: dodgerblue;
+      outline: none;
+      cursor: pointer;
+    }
+    &__close {
+      cursor: pointer;
+      color: white;
+      font-size: 48px;
+      margin-top: 8px;
+      align-self: flex-end;
+    }
+  }

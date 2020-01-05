@@ -1,0 +1,13 @@
+.adder {
+  max-height: 12rem;
+  max-width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem;
+  p {
+    font-size: 8rem;
+    color: #ececec;
+  }
+}

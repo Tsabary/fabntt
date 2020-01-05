@@ -1,0 +1,20 @@
+.project {
+  &__select {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    // margin-left: 16px;
+    background-color: white;
+    padding: 16px;
+    justify-self: start;
+    color: black;
+    &:hover {
+      color: dodgerblue;
+    }
+  }
+  &__empty {
+    color: white;
+    text-transform: uppercase;
+  }
+}

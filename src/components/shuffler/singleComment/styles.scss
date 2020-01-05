@@ -1,0 +1,24 @@
+.comment {
+  display: flex;
+  &__submit {
+    width: 15rem;
+    margin-left: 1.5rem;
+  }
+  &__avatar {
+    height: 5.5rem;
+    width: 5.5rem;
+    margin: 1.5rem;
+    margin-top: 0;
+    object-fit: cover;
+  }
+  &__title {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 1rem;
+    align-items: baseline;
+  }
+  &__date {
+    font-weight: 300;
+    color: silver;
+  }
+}
