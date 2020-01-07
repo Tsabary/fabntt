@@ -5,7 +5,7 @@ import Global from "../styles/global";
 
 
 import Header from "./header";
-import Shuffler from "../components/shuffler";
+import Shuffler from "./shuffler";
 // import Dictionary from "../components/dictionary";
 // import Translator from "../components/translator";
 // import MindMap from "../components/mindMap";

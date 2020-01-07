@@ -3,8 +3,6 @@ import firebase from "../../../firebase";
 import "./styles.scss";
 
 const SignUp = () => {
-  // const [email, setEmail] = useState("");
-  // const [password, SetPassword] = useState("");
   var googleProvider = new firebase.auth.GoogleAuthProvider();
   var facebookProvider = new firebase.auth.FacebookAuthProvider();
   const handleSignUp = useCallback(

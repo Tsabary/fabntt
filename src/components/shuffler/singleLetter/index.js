@@ -25,6 +25,9 @@ class SingleLetter extends React.Component {
   render() {
     return (
       <div className="letter">
+        <div className="letter__remove" onClick={this.handleRemove}>
+          ✖
+        </div>
         <input
           className="letter__input"
           onFocus={event => event.target.select()}
@@ -40,9 +43,6 @@ class SingleLetter extends React.Component {
             onClick={this.handleLock}
           />
         )}
-        <div className="letter__remove" onClick={this.handleRemove}>
-          ✖
-        </div>
       </div>
     );
   }
